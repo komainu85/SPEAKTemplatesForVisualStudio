@@ -68,11 +68,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\EmptySPEAKApplicationController.cs" />
+    <Compile Include="Controllers\ExampleController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EmptySPEAKApplication.js" />
+    <Content Include="ExamplePageCode.js" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,7 +105,7 @@
   </ProjectExtensions>
   <PropertyGroup>
     <PostBuildEvent>xcopy /Q /Y "$(TargetDir)$(TargetName).*" "C:\inetpub\wwwroot\SitecoreSite\website\bin\"
-xcopy /Q /Y "$(ProjectDir)*.js" "C:\inetpub\wwwroot\SitecoreSite\website\sitecore\shell\client\EmptySPEAKApplication\"</PostBuildEvent>
+xcopy /Q /Y "$(ProjectDir)*.js" "C:\inetpub\wwwroot\SitecoreSite\website\sitecore\shell\client\$safeprojectname$\"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

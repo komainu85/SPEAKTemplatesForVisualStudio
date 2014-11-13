@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptySPEAKApplication", "Em
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS template", "VS template", "{EAAAD43A-2E13-422F-AE25-62298BA4BBBF}"
 	ProjectSection(SolutionItems) = preProject
-		VS Template\Empty SPEAK Application.zip = VS Template\Empty SPEAK Application.zip
+		VS Template\SitecoreSPEAKApplication.zip = VS Template\SitecoreSPEAKApplication.zip
 	EndProjectSection
 EndProject
 Global

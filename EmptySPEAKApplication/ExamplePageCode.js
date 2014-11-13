@@ -1,5 +1,5 @@
 ﻿define(["sitecore"], function (Sitecore) {
-    var EmptySPEAKApplication = Sitecore.Definitions.App.extend({
+    var $safeprojectname$ = Sitecore.Definitions.App.extend({
 
         filesUploaded: [],
 
@@ -11,5 +11,5 @@
 
     });
 
-    return EmptySPEAKApplication;
+    return $safeprojectname$;
 });

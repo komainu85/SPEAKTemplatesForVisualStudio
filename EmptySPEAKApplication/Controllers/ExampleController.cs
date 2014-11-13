@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EmptySPEAKApplication.Controllers
+namespace $safeprojectname$.Controllers
 {
-    public class EmptySPEAKApplicationController: Controller
+    public class ExampleController: Controller
     {
     }
 }
